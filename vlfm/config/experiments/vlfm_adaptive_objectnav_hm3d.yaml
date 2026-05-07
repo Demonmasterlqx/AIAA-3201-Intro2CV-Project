@@ -1,0 +1,16 @@
+# @package _global_
+
+defaults:
+  - /experiments/vlfm_objectnav_hm3d
+  - _self_
+
+habitat_baselines:
+  rl:
+    policy:
+      name: "HabitatAdaptiveHybridPolicy"
+      adaptive_semantic_threshold: 0.2
+      adaptive_score_ema_alpha: 0.6
+      adaptive_score_history_length: 5
+      adaptive_min_confident_fraction: 0.6
+      adaptive_max_score_std: 0.15
+      adaptive_frontier_min_distance: 0.75

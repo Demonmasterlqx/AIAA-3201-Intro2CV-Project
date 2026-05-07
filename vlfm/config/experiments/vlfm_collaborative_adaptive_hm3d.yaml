@@ -1,0 +1,18 @@
+# @package _global_
+
+defaults:
+  - /experiments/vlfm_adaptive_objectnav_hm3d
+  - _self_
+
+habitat_baselines:
+  rl:
+    policy:
+      name: "HabitatCollaborativeAdaptiveHybridPolicy"
+      collab_agent_id: "agent_0"
+      collab_shared_memory_path: ""
+      collab_claim_cell_size_m: 2.0
+      collab_claim_radius_m: 1.5
+      collab_candidate_score_margin: 0.02
+      collab_peer_success_stop: True
+      collab_initial_sector_bias: -1.0
+      collab_shared_update_every_n_steps: 1

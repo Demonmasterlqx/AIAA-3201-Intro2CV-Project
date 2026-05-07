@@ -1,0 +1,45 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local/system files
+.DS_Store
+Thumbs.db
+
+# Generated experiment artifacts and large local assets
+data/
+datasets/
+scene_datasets/
+debug/
+results/
+outputs/
+runs/
+logs/
+wandb/
+pretrained_weights/
+checkpoints/
+cache/
+.cache/
+
+# Model/media artifacts should not live in normal git history
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.mp4
+*.avi
+*.mov

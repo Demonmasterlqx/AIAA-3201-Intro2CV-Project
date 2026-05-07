@@ -1,0 +1,10 @@
+defaults:
+  - eval_as_ascent_hm3d_minival_smoke
+  - _self_
+
+habitat_baselines:
+  tensorboard_dir: "debug/tb_agents_ascent_naive_hm3d_minival_1ep"
+  video_dir: "debug/video_agents_ascent_naive_hm3d_minival_1ep"
+  test_episode_count: 1
+  eval:
+    video_option: []

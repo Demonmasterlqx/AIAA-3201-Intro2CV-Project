@@ -1,0 +1,8 @@
+defaults:
+  - eval_g_ascent_hm3d_smoke
+  - _self_
+
+habitat_baselines:
+  tensorboard_dir: "debug/tb_g_ascent_hm3d"
+  video_dir: "debug/video_g_ascent_hm3d"
+  test_episode_count: -1

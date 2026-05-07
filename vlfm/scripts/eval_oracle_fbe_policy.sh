@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Copyright [2023] Boston Dynamics AI Institute, Inc.
+
+set -euo pipefail
+
+ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+RUN_NAME="${RUN_NAME:-oracle_fbe}"
+OUTPUT_DIR="${OUTPUT_DIR:-${ROOT_DIR}/outputs/${RUN_NAME}}"
+VIDEO_DIR="${VIDEO_DIR:-${OUTPUT_DIR}/videos}"
+LOG_DIR="${LOG_DIR:-${OUTPUT_DIR}/episode_stats}"
+EVAL_SPLIT="${EVAL_SPLIT:-val}"
+TEST_EPISODE_COUNT="${TEST_EPISODE_COUNT:--1}"
+VIDEO_OPTION="${VIDEO_OPTION:-[\"disk\"]}"
+
+mkdir -p "${VIDEO_DIR}" "${LOG_DIR}"
+export ZSOS_LOG_DIR="${LOG_DIR}"
+
+cd "${ROOT_DIR}"
+python -m vlfm.run \
+  habitat_baselines.evaluate=True \
+  habitat_baselines.eval_ckpt_path_dir="${ROOT_DIR}/data/dummy_policy.pth" \
+  habitat_baselines.load_resume_state_config=False \
+  habitat_baselines.rl.policy.name=OracleFBEPolicy \
+  habitat_baselines.num_environments=1 \
+  habitat_baselines.eval.split="${EVAL_SPLIT}" \
+  habitat_baselines.test_episode_count="${TEST_EPISODE_COUNT}" \
+  habitat_baselines.video_dir="${VIDEO_DIR}" \
+  habitat_baselines.eval.video_option="${VIDEO_OPTION}" \
+  habitat.simulator.habitat_sim_v0.allow_sliding=True \
+  "$@"

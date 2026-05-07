@@ -1,0 +1,32 @@
+defaults:
+  - task_config_base
+  - actions:
+    - global_joint_nav_action
+  - measurements:
+    - global_joint_distance_to_goal
+    - global_joint_success
+    - global_joint_spl
+    - distance_to_goal_reward
+  - lab_sensors:
+    - g_agent_0_objectgoal_sensor
+    - g_agent_0_compass_sensor
+    - g_agent_0_gps_sensor
+    - g_agent_0_heading_sensor
+    - g_agent_1_objectgoal_sensor
+    - g_agent_1_compass_sensor
+    - g_agent_1_gps_sensor
+    - g_agent_1_heading_sensor
+  - _self_
+
+type: GlobalMultiAgentObjectNav-v0
+end_on_success: True
+reward_measure: "distance_to_goal_reward"
+success_measure: "success"
+
+goal_sensor_uuid: agent_0_objectgoal
+
+measurements:
+  distance_to_goal:
+    distance_to: VIEW_POINTS
+  success:
+    success_distance: 0.1

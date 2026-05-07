@@ -1,0 +1,34 @@
+defaults:
+  - eval_as_ascent_hm3d_minival_smoke
+  - _self_
+
+habitat:
+  environment:
+    max_episode_steps: 160
+
+habitat_baselines:
+  tensorboard_dir: "results/as_ascent/hm3d/minival_showcase/tensorboard"
+  video_dir: "results/as_ascent/hm3d/minival_showcase/videos"
+  test_episode_count: 4
+  eval:
+    split: "val_mini"
+  rl:
+    policy:
+      main_agent:
+        as_ascent:
+          coordination_mode: "adaptive"
+          trigger:
+            distance_threshold: 1.5
+            min_frontiers: 2
+            min_cluster_count: 2
+            top2_gap_threshold: 0.35
+          spawn:
+            min_remaining_steps: 60
+            spawn_margin: 1.0
+            max_overlap: 0.30
+            require_disjoint_frontier: true
+            allow_verifier_without_search: true
+          commit:
+            commit_window_steps: 30
+          logging:
+            log_dir_template: "results/as_ascent/hm3d/minival_showcase/{run_id}"

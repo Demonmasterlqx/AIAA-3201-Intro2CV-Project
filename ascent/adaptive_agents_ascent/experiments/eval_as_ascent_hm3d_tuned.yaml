@@ -1,0 +1,15 @@
+defaults:
+  - eval_as_ascent_hm3d_smoke
+  - _self_
+
+habitat_baselines:
+  rl:
+    policy:
+      main_agent:
+        as_ascent:
+          evidence:
+            likely_threshold: 0.75
+            verified_threshold: 0.93
+            stability_window: 4
+            min_viewpoint_clusters: 2
+            preferred_supporting_agents: 2

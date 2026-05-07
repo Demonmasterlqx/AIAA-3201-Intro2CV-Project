@@ -1,0 +1,6 @@
+# Generated evaluation outputs; keep only the project scripts/docs in git.
+results*/
+artifacts*/
+REPORT*.md
+plan_b_runs/
+preflight.json
