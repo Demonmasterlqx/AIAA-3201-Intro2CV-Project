@@ -1,0 +1,10 @@
+# @package _global_
+
+defaults:
+  - /experiments/vlfm_objectnav_hm3d
+  - _self_
+
+habitat_baselines:
+  rl:
+    policy:
+      name: "HabitatITMPolicyV2"

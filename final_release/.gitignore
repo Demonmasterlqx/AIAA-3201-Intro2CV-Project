@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Local environments and secrets
+.env
+*.env
+.env.*
+.venv/
+venv/
+
+# Datasets, checkpoints, generated outputs
+data/
+scene_datasets/
+MatterPort3D/
+pretrained_weights/
+checkpoints/
+outputs/
+results/*/videos/
+**/videos/
+*.pth
+*.pt
+*.ckpt
+*.glb
+*.basis
+*.mp4
+*.avi
+*.mov
+
+# Logs and caches
+*.log
+*.tmp
+.DS_Store

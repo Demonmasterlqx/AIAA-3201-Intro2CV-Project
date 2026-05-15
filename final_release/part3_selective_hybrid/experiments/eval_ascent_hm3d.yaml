@@ -1,0 +1,163 @@
+defaults:
+  - /habitat_baselines: habitat_baselines_rl_config_base
+  - /benchmark/nav/objectnav: objectnav_hm3d
+  - /habitat/task/lab_sensors:
+      - base_explorer
+      - compass_sensor
+      - gps_sensor
+      - heading_sensor
+      - frontier_sensor
+  - /habitat/task/measurements:
+    - multi_floor_map # frontier_exploration_map
+    - traveled_stairs
+  - /habitat_baselines/rl/policy: ascent_policy
+  - _self_
+
+habitat:
+  dataset:
+    data_path: /data/home/sim6g/code/aiaa3201_cv_project/data/ascent_imported/datasets/objectnav/hm3d/v2/{split}/{split}.json.gz
+  environment:
+    iterator_options:
+      max_scene_repeat_steps: 50000
+      shuffle: False
+  task:
+    success_reward: 2.5
+    slack_reward: -1e-3
+    lab_sensors:
+      base_explorer:
+        turn_angle: 30
+        area_thresh: 1.5
+
+habitat_baselines:
+  evaluate: True
+  eval_ckpt_path_dir: dummy_policy.pth
+  num_environments: 1
+  load_resume_state_config: False
+  verbose: false
+  torch_gpu_id: 0
+  tensorboard_dir: "debug/tb_hm3d_debug"
+  video_dir: "debug/video_hm3d_debug"
+  test_episode_count: -1
+  checkpoint_folder: "debug/"
+  trainer_name: "ascent"
+  num_updates: 270000
+  log_interval: 10
+  num_checkpoints: 100
+  # Force PyTorch to be single threaded as
+  # this improves performance considerably
+  force_torch_single_threaded: True
+  eval_keys_to_include_in_name: ["success","spl","num_steps"]
+  eval:
+    split: "val"
+    video_option: ["disk"]
+    # extra_sim_sensors:
+    #   third_rgb_sensor:
+    #     height: 480
+    #     width: 640
+    #     position:
+    #     - 0.0
+    #     - 1.8
+    #     - 0.5 # 0.0 - is back
+    #     orientation:
+    #     - -0.78 # -1.57 # 0.0
+    #     - 0.0 # right -1.57
+    #     - 0.0 #lay -1.57 
+  rl:
+    policy:
+      main_agent:
+        name: "Ascent_Policy"
+        nearby_distance: 3.0 
+        topk: 3 
+        action_distribution_type: categorical
+        obstacle_map_area_threshold: 1.5 
+        pointnav_policy_path: "third_party/vlfm/data/pointnav_weights.pth"
+        llm:
+          backend: local_qwen
+          model_name: Qwen2.5-7B-Instruct
+          timeout_seconds: 20
+          max_retries: 3
+          max_tokens: 512
+          temperature: 0.0
+        final_check:
+          mode: blip2
+          backend: local_qwen_vl
+          model_name: Qwen2.5-VL-7B-Instruct
+          model_path: pretrained_weights/Qwen2.5-VL-7B-Instruct
+          port_env: QWEN2_5_VL_PORT
+          timeout_seconds: 60
+          max_retries: 2
+          max_tokens: 256
+          temperature: 0.0
+          blip2_confidence_threshold: 0.15
+          confidence_threshold: 0.70
+          strong_confidence_threshold: 0.99
+          confirmation_confidence_threshold: 0.95
+          confirmation_window_steps: 8
+          confirmation_iou_threshold: 0.70
+          hybrid_high_risk_categories: tv,tv_monitor,couch,sofa,bed,potted_plant,plant,toilet
+          hybrid_blip_low_threshold: 0.16
+          hybrid_blip_high_threshold: 0.34
+          hybrid_accept_on_qwen_reject_if_blip_high: true
+          hybrid_accept_tv_ambiguous_uncertain_if_blip_accept: true
+          tristate_enabled: true
+          uncertain_confidence_threshold: 0.55
+          tv_ambiguous_false_to_uncertain_enabled: true
+          category_thresholds_json: '{"tv": {"confidence": 0.82, "strong": 0.97, "confirmation": 0.92}, "tv_monitor": {"confidence": 0.82, "strong": 0.97, "confirmation": 0.92}, "potted_plant": {"confidence": 0.86, "strong": 0.98, "confirmation": 0.94}, "plant": {"confidence": 0.86, "strong": 0.98, "confirmation": 0.94}, "toilet": {"confidence": 0.64, "strong": 0.94, "confirmation": 0.86}, "couch": {"confidence": 0.76, "strong": 0.96, "confirmation": 0.90}, "sofa": {"confidence": 0.76, "strong": 0.96, "confirmation": 0.90}, "bed": {"confidence": 0.74, "strong": 0.96, "confirmation": 0.90}, "chair": {"confidence": 0.78, "strong": 0.96, "confirmation": 0.90}}'
+          cache_pose_decay: 0.75
+          cache_heading_decay_deg: 45.0
+          cache_max_age_steps: 10
+          qwen_approach_standoff: 0.55
+          qwen_close_stop_radius: 0.60
+          qwen_stalled_stop_radius: 0.82
+          qwen_stall_steps: 8
+          qwen_approach_recovery_enabled: false
+          suppress_distant_budget_stop: false
+          suppress_rejected_patch_enabled: false
+          suppress_rejected_patch_requires_blip_accept: true
+          suppress_rejected_patch_max_patches: 3
+          suppress_rejected_patch_min_points: 20
+          suppress_rejected_patch_dilation_px: 2
+        frontier:
+          stuck_recovery_enabled: false
+        stair:
+          floor_budget_enabled: false
+    ppo:
+      # ppo params
+      clip_param: 0.2
+      ppo_epoch: 2
+      num_mini_batch: 2
+      value_loss_coef: 0.5
+      entropy_coef: 0.01
+      lr: 2.5e-4
+      eps: 1e-5
+      max_grad_norm: 0.2
+      num_steps: 128
+      use_gae: True
+      gamma: 0.99
+      tau: 0.95
+      use_linear_clip_decay: False
+      use_linear_lr_decay: False
+      reward_window_size: 50
+
+      use_normalized_advantage: False
+
+      hidden_size: 512
+    ddppo:
+      sync_frac: 0.6
+      # The PyTorch distributed backend to use
+      distrib_backend: NCCL
+      # Visual encoder backbone
+      pretrained_weights: data/ddppo-models/gibson-2plus-resnet50.pth
+      # Initialize with pretrained weights
+      pretrained: False
+      # Initialize just the visual encoder backbone with pretrained weights
+      pretrained_encoder: False
+      # Whether or not the visual encoder backbone will be trained.
+      train_encoder: True
+      # Whether or not to reset the critic linear layer
+      reset_critic: False
+
+      # Model parameters
+      backbone: resnet18
+      rnn_type: LSTM
+      num_recurrent_layers: 2

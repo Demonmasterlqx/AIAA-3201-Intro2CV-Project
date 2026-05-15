@@ -1,0 +1,602 @@
+{
+  "failure_buckets": {
+    "false_positive": 36,
+    "never_saw_target_did_not_travel_stairs_feasible": 11,
+    "never_saw_target_did_not_travel_stairs_likely_infeasible": 17,
+    "never_saw_target_traveled_stairs_feasible": 2,
+    "never_saw_target_traveled_stairs_likely_infeasible": 4
+  },
+  "failure_records": [
+    {
+      "episode_id": "15",
+      "episode_index": 1,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "0",
+      "episode_index": 4,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "sofa",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "0",
+      "episode_index": 8,
+      "failure_cause": "false_positive",
+      "goal": "tv_monitor",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 9,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "sofa",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 11,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "toilet",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 15,
+      "failure_cause": "false_positive",
+      "goal": "tv_monitor",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 16,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "toilet",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 17,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "toilet",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 23,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "chair",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 29,
+      "failure_cause": "false_positive",
+      "goal": "bed",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "1",
+      "episode_index": 32,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 34,
+      "failure_cause": "false_positive",
+      "goal": "bed",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 36,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "sofa",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 38,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 42,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "toilet",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 45,
+      "failure_cause": "false_positive",
+      "goal": "bed",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 47,
+      "failure_cause": "false_positive",
+      "goal": "chair",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 57,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 58,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "tv_monitor",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 60,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "bed",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 61,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "11",
+      "episode_index": 68,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "sofa",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 69,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "toilet",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 71,
+      "failure_cause": "false_positive",
+      "goal": "chair",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 73,
+      "failure_cause": "false_positive",
+      "goal": "chair",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 79,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "13",
+      "episode_index": 83,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 87,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "tv_monitor",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "9",
+      "episode_index": 89,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "sofa",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 94,
+      "failure_cause": "false_positive",
+      "goal": "chair",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 102,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 103,
+      "failure_cause": "false_positive",
+      "goal": "tv_monitor",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "11",
+      "episode_index": 104,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 105,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "chair",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 107,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "sofa",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 114,
+      "failure_cause": "false_positive",
+      "goal": "tv_monitor",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 117,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "chair",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 121,
+      "failure_cause": "false_positive",
+      "goal": "bed",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 122,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 123,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "sofa",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "1",
+      "episode_index": 124,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "bed",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 127,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "bed",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 131,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 136,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "sofa",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 139,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "toilet",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "11",
+      "episode_index": 142,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "toilet",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 149,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 152,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 153,
+      "failure_cause": "false_positive",
+      "goal": "chair",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "1",
+      "episode_index": 154,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "bed",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 155,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "bed",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 158,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "toilet",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 159,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "sofa",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 165,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 166,
+      "failure_cause": "false_positive",
+      "goal": "chair",
+      "scene": "QaLdnwvtxbs"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 167,
+      "failure_cause": "false_positive",
+      "goal": "chair",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 169,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 173,
+      "failure_cause": "false_positive",
+      "goal": "tv_monitor",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 175,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 179,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "bed",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 180,
+      "failure_cause": "false_positive",
+      "goal": "tv_monitor",
+      "scene": "QaLdnwvtxbs"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 181,
+      "failure_cause": "false_positive",
+      "goal": "toilet",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "0",
+      "episode_index": 185,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 187,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "chair",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 189,
+      "failure_cause": "false_positive",
+      "goal": "sofa",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 190,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "chair",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 192,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "chair",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 193,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "chair",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 196,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "toilet",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 198,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "toilet",
+      "scene": "mv2HUxq3B53"
+    }
+  ],
+  "goal_failure_breakdown": {
+    "bed": {
+      "false_positive": 4,
+      "never_saw_target_did_not_travel_stairs_feasible": 2,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 1,
+      "never_saw_target_traveled_stairs_likely_infeasible": 3
+    },
+    "chair": {
+      "false_positive": 7,
+      "never_saw_target_did_not_travel_stairs_feasible": 3,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 3,
+      "never_saw_target_traveled_stairs_likely_infeasible": 1
+    },
+    "sofa": {
+      "false_positive": 11,
+      "never_saw_target_did_not_travel_stairs_feasible": 2,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 7
+    },
+    "toilet": {
+      "false_positive": 8,
+      "never_saw_target_did_not_travel_stairs_feasible": 4,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 5,
+      "never_saw_target_traveled_stairs_feasible": 1
+    },
+    "tv_monitor": {
+      "false_positive": 6,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 1,
+      "never_saw_target_traveled_stairs_feasible": 1
+    }
+  },
+  "scene_failure_breakdown": {
+    "5cdEh9F2hJL": {
+      "false_positive": 5
+    },
+    "6s7QHgap2fW": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 1,
+      "never_saw_target_traveled_stairs_feasible": 1
+    },
+    "DYehNKdT76V": {
+      "false_positive": 2
+    },
+    "Dd4bFSTQ8gi": {
+      "false_positive": 4,
+      "never_saw_target_did_not_travel_stairs_feasible": 1
+    },
+    "Nfvxx8J5NCo": {
+      "false_positive": 2,
+      "never_saw_target_did_not_travel_stairs_feasible": 1
+    },
+    "QaLdnwvtxbs": {
+      "false_positive": 2
+    },
+    "TEEsavR23oF": {
+      "false_positive": 3,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 2
+    },
+    "XB4GS9ShBRE": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 3,
+      "never_saw_target_traveled_stairs_likely_infeasible": 2
+    },
+    "bxsVRursffK": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_feasible": 3
+    },
+    "cvZr5TUy5C5": {
+      "false_positive": 4,
+      "never_saw_target_did_not_travel_stairs_feasible": 1,
+      "never_saw_target_traveled_stairs_likely_infeasible": 1
+    },
+    "mL8ThkuaVTM": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 5,
+      "never_saw_target_traveled_stairs_likely_infeasible": 1
+    },
+    "mv2HUxq3B53": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_feasible": 2
+    },
+    "q3zU7Yy5E5s": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_feasible": 2
+    },
+    "qyAac8rV8Zk": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 4,
+      "never_saw_target_traveled_stairs_feasible": 1
+    },
+    "wcojb4TFT35": {
+      "false_positive": 3,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 2
+    },
+    "ziup5kvtCCR": {
+      "false_positive": 2
+    },
+    "zt1RVoi7PcG": {
+      "false_positive": 2,
+      "never_saw_target_did_not_travel_stairs_feasible": 1
+    }
+  }
+}

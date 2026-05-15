@@ -1,0 +1,11 @@
+Corrected Part3 fixed 200ep Local-Qwen baseline:
+- baseline repo/code path: /data/home/sim6g/code/aiaa3201_cv_project/ascent_opt_localqwen_100ep
+- data_path=/data/home/sim6g/code/aiaa3201_cv_project/ascent_opt_localqwen_100ep/data/datasets/objectnav/hm3d/part3_200ep_fixed/v1/{split}/{split}.json.gz
+- scenes_dir=/data/home/sim6g/code/aiaa3201_cv_project/ascent/ascent/data/scene_datasets
+- content_scenes=[4ok3usBNeis,5cdEh9F2hJL,6s7QHgap2fW,DYehNKdT76V,Dd4bFSTQ8gi,Nfvxx8J5NCo,QaLdnwvtxbs,TEEsavR23oF,XB4GS9ShBRE,bxsVRursffK,cvZr5TUy5C5,mL8ThkuaVTM,mv2HUxq3B53,p53SfW6mjZe,q3zU7Yy5E5s,qyAac8rV8Zk,svBbv1Pavdk,wcojb4TFT35,ziup5kvtCCR,zt1RVoi7PcG]
+- num_episode_sample=200
+- shuffle=True
+- group_by_scene=False
+- test_episode_count=200
+- planner backend=local_qwen
+- final_check.mode=blip2

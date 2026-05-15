@@ -1,0 +1,62 @@
+{
+  "name": "final_demo_gained5",
+  "source_result_dir": "results/part3_fixed200_final/part3_baseline_localqwen_fixed200_v1",
+  "source_root": "data/datasets/objectnav/hm3d/part3_200ep_fixed/v1/val",
+  "output_data_path": "data/datasets/objectnav/hm3d/final_demo_gained5/v1/val/{split}.json.gz",
+  "selected_indices": [
+    15,
+    102,
+    165,
+    167,
+    169
+  ],
+  "sample_size": 5,
+  "content_scenes": [
+    "DYehNKdT76V",
+    "Nfvxx8J5NCo",
+    "bxsVRursffK",
+    "wcojb4TFT35"
+  ],
+  "episodes": [
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 0,
+      "episode_id": "0",
+      "object_category": "tv_monitor",
+      "episode_index": 15,
+      "source_run_order_index": 15
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 4,
+      "episode_id": "0",
+      "object_category": "sofa",
+      "episode_index": 102,
+      "source_run_order_index": 102
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 11,
+      "episode_id": "0",
+      "object_category": "sofa",
+      "episode_index": 165,
+      "source_run_order_index": 165
+    },
+    {
+      "scene": "DYehNKdT76V",
+      "scene_episode_index": 5,
+      "episode_id": "0",
+      "object_category": "chair",
+      "episode_index": 167,
+      "source_run_order_index": 167
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 4,
+      "episode_id": "0",
+      "object_category": "toilet",
+      "episode_index": 169,
+      "source_run_order_index": 169
+    }
+  ]
+}

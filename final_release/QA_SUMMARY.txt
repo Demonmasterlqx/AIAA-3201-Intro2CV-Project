@@ -1,0 +1,4 @@
+large_files_over_25MB=
+forbidden_ext=
+real_secret_patterns=
+note=API keys are read from environment variables at runtime; no literal credentials are included.
