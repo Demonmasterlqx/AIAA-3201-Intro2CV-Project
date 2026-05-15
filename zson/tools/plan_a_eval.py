@@ -7,6 +7,7 @@ import subprocess
 import sys
 import time
 from datetime import datetime
+from collections import Counter
 from typing import Dict, List
 
 import imageio
@@ -231,6 +232,12 @@ def run_episode(env, agent, output_dir: str):
                 "map_max_similarity": decision.map_max_similarity,
                 "projected_cells": decision.projected_cells,
                 "current_goal_cell": decision.current_goal_cell,
+                "current_goal_score": decision.current_goal_score,
+                "subgoal_strategy": agent.subgoal_strategy,
+                "force_frontier_steps": int(decision.force_frontier_steps),
+                "recovery_queue_len": int(decision.recovery_queue_len),
+                "stuck": bool(decision.stuck),
+                "rotation_stuck": bool(decision.rotation_stuck),
                 "agent_position": np.asarray(final_info["agent_position"]).tolist(),
                 "distance_to_goal": float(final_info.get("distance_to_goal", 0.0)),
                 "success": float(final_info.get("success", 0.0)),
@@ -241,6 +248,8 @@ def run_episode(env, agent, output_dir: str):
         info = final_info
 
     runtime_sec = time.perf_counter() - start_time
+    action_counts = Counter(row["action"] for row in trace)
+    reason_counts = Counter(row["reason"] for row in trace)
 
     if agent.plan_cfg.WRITE_VIDEOS:
         final_decision = agent.act(observation, final_info)
@@ -268,6 +277,8 @@ def run_episode(env, agent, output_dir: str):
         "stop_called": bool(agent.stop_called),
         "semantic_selections": int(agent.semantic_selections),
         "frontier_selections": int(agent.frontier_selections),
+        "action_counts": dict(sorted(action_counts.items())),
+        "reason_counts": dict(sorted(reason_counts.items())),
         "video_path": "",
         "semantic_image_path": "",
     }

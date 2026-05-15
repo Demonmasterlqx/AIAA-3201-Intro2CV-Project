@@ -297,6 +297,24 @@ class ZSONTrainer(PPOTrainer):
                     episode_stats = {}
                     episode_stats["reward"] = current_episode_reward[i].item()
                     episode_stats.update(self._extract_scalars_from_info(infos[i]))
+                    episode_record = {
+                        "scene_id": current_episodes[i].scene_id,
+                        "episode_id": current_episodes[i].episode_id,
+                        "object_category": getattr(
+                            current_episodes[i], "object_category", None
+                        ),
+                    }
+                    for key in (
+                        "reward",
+                        "success",
+                        "spl",
+                        "softspl",
+                        "soft_spl",
+                        "distance_to_goal",
+                    ):
+                        if key in episode_stats:
+                            episode_record[key] = episode_stats[key]
+                    evaluation_meta.append(episode_record)
                     current_episode_reward[i] = 0
 
                     # use scene_id + episode_id as unique id for storing stats
@@ -381,5 +399,27 @@ class ZSONTrainer(PPOTrainer):
         metrics = {k: v for k, v in aggregated_stats.items() if k != "reward"}
         if len(metrics) > 0:
             writer.add_scalars("eval_metrics", metrics, step_id)
+
+        if bool(self.config.EVAL.episodes_eval_data):
+            softspl = aggregated_stats.get(
+                "softspl", aggregated_stats.get("soft_spl")
+            )
+            avg_eval_metrics = {
+                "episode_count": num_episodes,
+                "success_rate": aggregated_stats.get("success"),
+                "spl": aggregated_stats.get("spl"),
+                "softspl": softspl,
+                "distance_to_goal": aggregated_stats.get("distance_to_goal"),
+                "metrics": aggregated_stats,
+            }
+            output_payloads = [
+                (self.config.EVAL.evaluation_meta_file, evaluation_meta),
+                (self.config.EVAL.avg_eval_metrics, avg_eval_metrics),
+            ]
+            for output_path, payload in output_payloads:
+                output_dir = os.path.dirname(output_path)
+                if output_dir:
+                    os.makedirs(output_dir, exist_ok=True)
+                write_json(payload, output_path)
 
         self.envs.close()

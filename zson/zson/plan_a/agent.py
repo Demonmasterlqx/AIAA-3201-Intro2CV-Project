@@ -27,6 +27,10 @@ class StepDecision:
     current_goal_score: Optional[float]
     current_goal_cell: Optional[Tuple[int, int]]
     projected_cells: int
+    force_frontier_steps: int = 0
+    recovery_queue_len: int = 0
+    stuck: bool = False
+    rotation_stuck: bool = False
 
 
 class PlanAAgent:
@@ -66,6 +70,7 @@ class PlanAAgent:
         self.force_frontier_steps = 0
         self.recovery_actions = deque()
         self.recent_actions = deque(maxlen=self.plan_cfg.ROTATION_STUCK_WINDOW)
+        self.recovery_cooldown_steps = 0
 
     def reset(self, episode, info: Dict[str, object]) -> None:
         self.goal_category = episode.object_category
@@ -105,6 +110,7 @@ class PlanAAgent:
         self.force_frontier_steps = int(self.plan_cfg.FRONTIER_BOOTSTRAP_STEPS)
         self.recovery_actions.clear()
         self.recent_actions.clear()
+        self.recovery_cooldown_steps = 0
 
     def _sensor_state(self):
         agent_state = self.sim.get_agent_state()
@@ -174,11 +180,18 @@ class PlanAAgent:
         )
 
     def _start_recovery(self) -> None:
+        if len(self.recovery_actions) > 0:
+            return
         self.recovery_actions = deque(int(a) for a in self.plan_cfg.RECOVERY_ACTIONS)
         self.force_frontier_steps = max(
             self.force_frontier_steps,
             int(self.plan_cfg.FRONTIER_RECOVERY_STEPS),
         )
+        self.recovery_cooldown_steps = max(
+            self.recovery_cooldown_steps,
+            int(self.plan_cfg.RECOVERY_COOLDOWN_STEPS),
+        )
+        self.recent_actions.clear()
 
     def _suppress_current_goal(self):
         if self.subgoal_cell is None:
@@ -252,20 +265,22 @@ class PlanAAgent:
     def _geodesic_distance(self, agent_position: np.ndarray, nav_point: np.ndarray) -> float:
         return float(self.sim.geodesic_distance(agent_position, nav_point))
 
+    def _within_success_distance(self, info: Dict[str, object]) -> bool:
+        distance = info.get("distance_to_goal")
+        if distance is None:
+            return False
+        try:
+            distance = float(distance)
+        except (TypeError, ValueError):
+            return False
+        success_distance = float(self.config.TASK_CONFIG.TASK.SUCCESS.SUCCESS_DISTANCE)
+        return np.isfinite(distance) and distance <= success_distance
+
     def _choose_candidate(self, info: Dict[str, object]) -> Optional[GoalCandidate]:
         assert self.semantic_map is not None
         if info["top_down_map"] is None:
             return None
-        semantic_candidates, planning_map = self._semantic_candidates(info)
-        semantic_peak = -1.0
-        if len(semantic_candidates) > 0:
-            semantic_peak = float(semantic_candidates[0].score)
-        semantic_cell_count = int(
-            np.sum(
-                (self.semantic_map.hit_count > 0)
-                & (planning_map >= float(self.plan_cfg.SEMANTIC_THRESHOLD))
-            )
-        )
+        semantic_candidates, _ = self._semantic_candidates(info)
         frontier_candidates = self._frontier_candidates(info)
 
         prefer_frontier = False
@@ -273,19 +288,13 @@ class PlanAAgent:
             prefer_frontier = True
         elif len(semantic_candidates) == 0:
             prefer_frontier = True
-        elif semantic_peak < float(self.plan_cfg.SEMANTIC_THRESHOLD) + float(
-            self.plan_cfg.SEMANTIC_MARGIN
-        ):
-            prefer_frontier = True
-        elif semantic_cell_count < int(self.plan_cfg.MIN_SEMANTIC_CELL_COUNT):
-            prefer_frontier = True
 
-        if prefer_frontier and len(frontier_candidates) > 0:
-            return frontier_candidates[0]
-        if len(semantic_candidates) > 0:
+        if not prefer_frontier and len(semantic_candidates) > 0:
             return semantic_candidates[0]
         if len(frontier_candidates) > 0:
             return frontier_candidates[0]
+        if len(semantic_candidates) > 0:
+            return semantic_candidates[0]
         return None
 
     def _replan(self, info: Dict[str, object]) -> None:
@@ -376,6 +385,8 @@ class PlanAAgent:
         self.step_id += 1
         if self.force_frontier_steps > 0:
             self.force_frontier_steps -= 1
+        if self.recovery_cooldown_steps > 0:
+            self.recovery_cooldown_steps -= 1
         center_depth = update.center_depth
         center_similarity = update.center_similarity
         map_max_similarity = self._current_map_max()
@@ -396,8 +407,28 @@ class PlanAAgent:
                 current_goal_cell=self.subgoal_cell,
                 projected_cells=update.projected_cells,
             )
+        if self.plan_cfg.USE_SUCCESS_DISTANCE_STOP and self._within_success_distance(info):
+            self.stop_called = True
+            return StepDecision(
+                action=0,
+                action_name=self.ACTION_NAMES[0],
+                reason="stop-success-distance",
+                strategy="success-distance",
+                center_similarity=center_similarity,
+                center_depth=center_depth,
+                map_max_similarity=map_max_similarity,
+                current_goal_score=self.subgoal_score,
+                current_goal_cell=self.subgoal_cell,
+                projected_cells=update.projected_cells,
+            )
         stuck = self._is_stuck()
-        if stuck:
+        rotation_stuck = self._is_rotation_stuck()
+        should_start_recovery = (
+            (stuck or rotation_stuck)
+            and self.recovery_cooldown_steps <= 0
+            and len(self.recovery_actions) == 0
+        )
+        if should_start_recovery:
             self.stuck_events += 1
             self._suppress_current_goal()
             self.subgoal_world = None
@@ -406,19 +437,21 @@ class PlanAAgent:
             self.subgoal_strategy = "none"
             self._start_recovery()
 
-        if self._is_rotation_stuck():
-            self._suppress_current_goal()
-            self.subgoal_world = None
-            self.subgoal_cell = None
-            self.subgoal_score = None
-            self.subgoal_strategy = "none"
-            self._start_recovery()
-
+        in_recovery = len(self.recovery_actions) > 0
+        interval_due = (self.step_id - self.last_replan_step) >= int(
+            self.plan_cfg.REPLAN_INTERVAL
+        )
+        keep_active_goal = (
+            self.subgoal_world is not None
+            and not self._goal_reached(position)
+        )
         needs_replan = (
-            self.subgoal_world is None
-            or self._goal_reached(position)
-            or (self.step_id - self.last_replan_step)
-            >= int(self.plan_cfg.REPLAN_INTERVAL)
+            not in_recovery
+            and (
+                self.subgoal_world is None
+                or self._goal_reached(position)
+                or (interval_due and not keep_active_goal)
+            )
         )
         if needs_replan:
             if self._goal_reached(position):
@@ -500,4 +533,8 @@ class PlanAAgent:
             current_goal_score=self.subgoal_score,
             current_goal_cell=self.subgoal_cell,
             projected_cells=update.projected_cells,
+            force_frontier_steps=self.force_frontier_steps,
+            recovery_queue_len=len(self.recovery_actions),
+            stuck=stuck,
+            rotation_stuck=rotation_stuck,
         )

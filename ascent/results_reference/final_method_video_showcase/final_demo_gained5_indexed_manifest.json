@@ -1,0 +1,56 @@
+{
+  "name": "final_demo_gained5_indexed",
+  "source_manifest": "results/part3_fixed200_final/part3_baseline_localqwen_fixed200_v1/episodes_fixed.json",
+  "source_root": "/data/home/sim6g/code/aiaa3201_cv_project/ascent/ascent/data/datasets/objectnav/hm3d/v1/val",
+  "selected_indices": [
+    15,
+    102,
+    165,
+    167,
+    169
+  ],
+  "sample_size": 5,
+  "content_scenes": [
+    "QaLdnwvtxbs",
+    "q3zU7Yy5E5s",
+    "svBbv1Pavdk",
+    "wcojb4TFT35"
+  ],
+  "episodes": [
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 41,
+      "episode_id": "1",
+      "object_category": "bed",
+      "source_episode_index": 15
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 34,
+      "episode_id": "0",
+      "object_category": "sofa",
+      "source_episode_index": 102
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 67,
+      "episode_id": "0",
+      "object_category": "sofa",
+      "source_episode_index": 165
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 12,
+      "episode_id": "0",
+      "object_category": "sofa",
+      "source_episode_index": 167
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 42,
+      "episode_id": "0",
+      "object_category": "sofa",
+      "source_episode_index": 169
+    }
+  ]
+}

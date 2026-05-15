@@ -1,0 +1,25 @@
+{
+  "blip_score_avg": 0.14271089426995137,
+  "blip_score_count": 586,
+  "dtg": 3.0444,
+  "episodes": 200,
+  "final_check_call_count": 0.0,
+  "final_check_parse_error_count": 0.0,
+  "final_check_success_count": 0.83,
+  "final_modes": {
+    "blip2": 586
+  },
+  "final_tristates": {
+    "accept": 166,
+    "reject": 420
+  },
+  "num_failures_logged": 70,
+  "spl": 0.3509,
+  "spl_percent": 35.089999999999996,
+  "sr": 0.65,
+  "sr_percent": 65.0,
+  "steps": 179.995,
+  "stop_called": 0.82,
+  "target_detected": 0.825,
+  "traveled_stairs": 0.06
+}

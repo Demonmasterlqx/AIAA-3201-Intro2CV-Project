@@ -1,0 +1,1230 @@
+{
+  "seed": 3201,
+  "sample_size": 200,
+  "source_root": "/data/home/sim6g/code/aiaa3201_cv_project/ascent/ascent/data/datasets/objectnav/hm3d/v1/val",
+  "output_data_path": "/data/home/sim6g/code/aiaa3201_cv_project/ascent_opt_localqwen_100ep/data/part3_200ep_fixed/v1/val/{split}.json.gz",
+  "content_scenes": [
+    "4ok3usBNeis",
+    "5cdEh9F2hJL",
+    "6s7QHgap2fW",
+    "DYehNKdT76V",
+    "Dd4bFSTQ8gi",
+    "Nfvxx8J5NCo",
+    "QaLdnwvtxbs",
+    "TEEsavR23oF",
+    "XB4GS9ShBRE",
+    "bxsVRursffK",
+    "cvZr5TUy5C5",
+    "mL8ThkuaVTM",
+    "mv2HUxq3B53",
+    "p53SfW6mjZe",
+    "q3zU7Yy5E5s",
+    "qyAac8rV8Zk",
+    "svBbv1Pavdk",
+    "wcojb4TFT35",
+    "ziup5kvtCCR",
+    "zt1RVoi7PcG"
+  ],
+  "episodes": [
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 66,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 46,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 31,
+      "episode_id": "0",
+      "object_category": "plant"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 56,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 97,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 58,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 37,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 70,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 70,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 38,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "p53SfW6mjZe",
+      "scene_episode_index": 59,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 4,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 4,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "p53SfW6mjZe",
+      "scene_episode_index": 49,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 55,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 41,
+      "episode_id": "1",
+      "object_category": "bed"
+    },
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 82,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 12,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 2,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 70,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 3,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 27,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 75,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 61,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 43,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 98,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 45,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 27,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 97,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "DYehNKdT76V",
+      "scene_episode_index": 20,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "6s7QHgap2fW",
+      "scene_episode_index": 12,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 86,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 9,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "6s7QHgap2fW",
+      "scene_episode_index": 86,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 42,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 19,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 44,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 42,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 42,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 74,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 65,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "p53SfW6mjZe",
+      "scene_episode_index": 82,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 15,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 43,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 75,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 45,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 28,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 85,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 76,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 63,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 9,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 24,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 56,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 34,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 86,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 25,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 65,
+      "episode_id": "1",
+      "object_category": "plant"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 87,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 87,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 14,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 59,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 10,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 41,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 73,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 5,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 19,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 63,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 34,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 52,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 76,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 2,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "p53SfW6mjZe",
+      "scene_episode_index": 15,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "6s7QHgap2fW",
+      "scene_episode_index": 82,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 65,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "DYehNKdT76V",
+      "scene_episode_index": 81,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 96,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "zt1RVoi7PcG",
+      "scene_episode_index": 103,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 45,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 18,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 12,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 28,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "6s7QHgap2fW",
+      "scene_episode_index": 79,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 27,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 54,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 76,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 20,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 68,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 1,
+      "episode_id": "1",
+      "object_category": "chair"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 88,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 72,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 32,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 86,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 86,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 88,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 64,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 7,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 15,
+      "episode_id": "1",
+      "object_category": "chair"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 41,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 76,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 1,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 40,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 36,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 34,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 4,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "DYehNKdT76V",
+      "scene_episode_index": 2,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "6s7QHgap2fW",
+      "scene_episode_index": 73,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 68,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "DYehNKdT76V",
+      "scene_episode_index": 71,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 38,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 11,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 86,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 53,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "p53SfW6mjZe",
+      "scene_episode_index": 83,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 5,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 39,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 53,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 7,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 77,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 54,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 73,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 71,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "p53SfW6mjZe",
+      "scene_episode_index": 55,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "DYehNKdT76V",
+      "scene_episode_index": 67,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 58,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "zt1RVoi7PcG",
+      "scene_episode_index": 37,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "6s7QHgap2fW",
+      "scene_episode_index": 51,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 30,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 44,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 22,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 78,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 49,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 24,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 48,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 25,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 4,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "zt1RVoi7PcG",
+      "scene_episode_index": 68,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 37,
+      "episode_id": "1",
+      "object_category": "bed"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 21,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 87,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "XB4GS9ShBRE",
+      "scene_episode_index": 81,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 41,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 13,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 80,
+      "episode_id": "0",
+      "object_category": "plant"
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 10,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 35,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 84,
+      "episode_id": "0",
+      "object_category": "plant"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 85,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 96,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Dd4bFSTQ8gi",
+      "scene_episode_index": 79,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 56,
+      "episode_id": "2",
+      "object_category": "bed"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 31,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 17,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 74,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 39,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 21,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 15,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 38,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "qyAac8rV8Zk",
+      "scene_episode_index": 44,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "zt1RVoi7PcG",
+      "scene_episode_index": 49,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 5,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 74,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 98,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "mL8ThkuaVTM",
+      "scene_episode_index": 23,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 53,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 12,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 67,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 66,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 12,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 97,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 42,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 33,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 2,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "5cdEh9F2hJL",
+      "scene_episode_index": 50,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "ziup5kvtCCR",
+      "scene_episode_index": 39,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 25,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "4ok3usBNeis",
+      "scene_episode_index": 8,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "DYehNKdT76V",
+      "scene_episode_index": 80,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 89,
+      "episode_id": "1",
+      "object_category": "bed"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 31,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 91,
+      "episode_id": "1",
+      "object_category": "plant"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 90,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 51,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 5,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "TEEsavR23oF",
+      "scene_episode_index": 42,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "wcojb4TFT35",
+      "scene_episode_index": 71,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 92,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "bxsVRursffK",
+      "scene_episode_index": 67,
+      "episode_id": "0",
+      "object_category": "chair"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 57,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "svBbv1Pavdk",
+      "scene_episode_index": 87,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "zt1RVoi7PcG",
+      "scene_episode_index": 1,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "6s7QHgap2fW",
+      "scene_episode_index": 71,
+      "episode_id": "0",
+      "object_category": "bed"
+    },
+    {
+      "scene": "q3zU7Yy5E5s",
+      "scene_episode_index": 59,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 70,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "QaLdnwvtxbs",
+      "scene_episode_index": 35,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "zt1RVoi7PcG",
+      "scene_episode_index": 81,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 20,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "zt1RVoi7PcG",
+      "scene_episode_index": 40,
+      "episode_id": "0",
+      "object_category": "toilet"
+    },
+    {
+      "scene": "Nfvxx8J5NCo",
+      "scene_episode_index": 88,
+      "episode_id": "0",
+      "object_category": "sofa"
+    },
+    {
+      "scene": "cvZr5TUy5C5",
+      "scene_episode_index": 58,
+      "episode_id": "0",
+      "object_category": "tv_monitor"
+    },
+    {
+      "scene": "mv2HUxq3B53",
+      "scene_episode_index": 28,
+      "episode_id": "0",
+      "object_category": "toilet"
+    }
+  ]
+}

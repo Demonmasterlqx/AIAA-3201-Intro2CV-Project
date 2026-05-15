@@ -1,0 +1,28 @@
+{
+  "blip_score_avg": 0.16162377802514227,
+  "blip_score_count": 952,
+  "dtg": 3.1144,
+  "episodes": 200,
+  "final_check_call_count": 1.355,
+  "final_check_parse_error_count": 0.0,
+  "final_check_success_count": 2.61,
+  "final_modes": {
+    "blip2": 618,
+    "qwenvl_objectpatch": 232,
+    "selective_hybrid_boundary_gate_only": 102
+  },
+  "final_tristates": {
+    "accept": 163,
+    "reject": 725,
+    "uncertain": 64
+  },
+  "num_failures_logged": 68,
+  "spl": 0.3519,
+  "spl_percent": 35.19,
+  "sr": 0.66,
+  "sr_percent": 66.0,
+  "steps": 183.79,
+  "stop_called": 0.81,
+  "target_detected": 0.82,
+  "traveled_stairs": 0.08
+}

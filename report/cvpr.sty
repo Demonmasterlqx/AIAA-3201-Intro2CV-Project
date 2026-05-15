@@ -1,0 +1,37 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{cvpr}[2026/05/14 Minimal CVPR-compatible style for AIAA3201 draft]
+\newif\ifcvprfinal
+\cvprfinaltrue
+\DeclareOption{review}{\cvprfinalfalse}
+\DeclareOption{final}{\cvprfinaltrue}
+\ProcessOptions\relax
+\RequirePackage[margin=0.75in]{geometry}
+\RequirePackage{times}
+\RequirePackage{microtype}
+\RequirePackage{xcolor}
+\RequirePackage{titlesec}
+\RequirePackage{caption}
+\RequirePackage{etoolbox}
+\setlength{\columnsep}{0.24in}
+\pagestyle{empty}
+\titleformat{\section}{\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection}{0.6em}{}
+\titlespacing*{\section}{0pt}{0.85em}{0.35em}
+\titlespacing*{\subsection}{0pt}{0.65em}{0.25em}
+\titlespacing*{\subsubsection}{0pt}{0.45em}{0.15em}
+\captionsetup{font=small,labelfont=bf}
+\AtBeginDocument{\twocolumn}
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begingroup
+  \renewcommand\thefootnote{}%
+  \twocolumn[{%
+    \centering
+    {\Large\bfseries \@title\par}\vspace{0.7em}
+    {\normalsize \@author\par}\vspace{1.0em}
+  }]%
+  \endgroup
+}
+\makeatother
+\newcommand{\cvprfinalcopy}{\cvprfinaltrue}

@@ -1,0 +1,2635 @@
+{
+  "failure_buckets": {
+    "false_positive": 161,
+    "never_saw_target_did_not_travel_stairs_feasible": 50,
+    "never_saw_target_did_not_travel_stairs_likely_infeasible": 100,
+    "never_saw_target_traveled_stairs_feasible": 9,
+    "never_saw_target_traveled_stairs_likely_infeasible": 39
+  },
+  "failure_records": [
+    {
+      "episode_id": "62",
+      "episode_index": 7,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "11",
+      "episode_index": 12,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "57",
+      "episode_index": 16,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "50",
+      "episode_index": 17,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "45",
+      "episode_index": 20,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "76",
+      "episode_index": 22,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "9",
+      "episode_index": 23,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 24,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 26,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "48",
+      "episode_index": 31,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "86",
+      "episode_index": 32,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "65",
+      "episode_index": 34,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 35,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "81",
+      "episode_index": 38,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "28",
+      "episode_index": 39,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "9",
+      "episode_index": 43,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "52",
+      "episode_index": 44,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "34",
+      "episode_index": 45,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "47",
+      "episode_index": 65,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "30",
+      "episode_index": 69,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "26",
+      "episode_index": 75,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "18",
+      "episode_index": 77,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "36",
+      "episode_index": 78,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "40",
+      "episode_index": 79,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 80,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "42",
+      "episode_index": 82,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "28",
+      "episode_index": 86,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "51",
+      "episode_index": 87,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 92,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "60",
+      "episode_index": 93,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "56",
+      "episode_index": 96,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "35",
+      "episode_index": 101,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "88",
+      "episode_index": 103,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "18",
+      "episode_index": 107,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "78",
+      "episode_index": 114,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "28",
+      "episode_index": 118,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "59",
+      "episode_index": 122,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "90",
+      "episode_index": 124,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "65",
+      "episode_index": 127,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "61",
+      "episode_index": 131,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "11",
+      "episode_index": 138,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "24",
+      "episode_index": 141,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "44",
+      "episode_index": 142,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 144,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "21",
+      "episode_index": 145,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "69",
+      "episode_index": 146,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "69",
+      "episode_index": 147,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "84",
+      "episode_index": 152,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "54",
+      "episode_index": 153,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "54",
+      "episode_index": 154,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "23",
+      "episode_index": 156,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "22",
+      "episode_index": 157,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "94",
+      "episode_index": 158,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 162,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "89",
+      "episode_index": 165,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 166,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 172,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "43",
+      "episode_index": 174,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 182,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 186,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "69",
+      "episode_index": 189,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "75",
+      "episode_index": 191,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "19",
+      "episode_index": 192,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "svBbv1Pavdk"
+    },
+    {
+      "episode_id": "103",
+      "episode_index": 193,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "34",
+      "episode_index": 194,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "58",
+      "episode_index": 197,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "47",
+      "episode_index": 200,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "66",
+      "episode_index": 202,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "98",
+      "episode_index": 208,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "85",
+      "episode_index": 210,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 211,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "41",
+      "episode_index": 212,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "58",
+      "episode_index": 217,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "14",
+      "episode_index": 220,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "70",
+      "episode_index": 221,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 229,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 231,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "73",
+      "episode_index": 235,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "75",
+      "episode_index": 239,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "22",
+      "episode_index": 245,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "93",
+      "episode_index": 246,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "89",
+      "episode_index": 248,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "24",
+      "episode_index": 254,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 257,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "90",
+      "episode_index": 259,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 260,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "49",
+      "episode_index": 262,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "20",
+      "episode_index": 264,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "69",
+      "episode_index": 265,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "39",
+      "episode_index": 267,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "72",
+      "episode_index": 269,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "75",
+      "episode_index": 273,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "19",
+      "episode_index": 278,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "111",
+      "episode_index": 282,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "36",
+      "episode_index": 286,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "59",
+      "episode_index": 287,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "101",
+      "episode_index": 288,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "71",
+      "episode_index": 289,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "30",
+      "episode_index": 290,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "11",
+      "episode_index": 291,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "27",
+      "episode_index": 294,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "72",
+      "episode_index": 295,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "78",
+      "episode_index": 300,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "77",
+      "episode_index": 301,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "36",
+      "episode_index": 304,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "51",
+      "episode_index": 307,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "16",
+      "episode_index": 308,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 312,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "61",
+      "episode_index": 313,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "47",
+      "episode_index": 317,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "QaLdnwvtxbs"
+    },
+    {
+      "episode_id": "79",
+      "episode_index": 319,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "33",
+      "episode_index": 321,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "14",
+      "episode_index": 323,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "40",
+      "episode_index": 325,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "13",
+      "episode_index": 326,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "56",
+      "episode_index": 328,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "17",
+      "episode_index": 330,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "57",
+      "episode_index": 331,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "84",
+      "episode_index": 332,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "49",
+      "episode_index": 334,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "88",
+      "episode_index": 341,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "46",
+      "episode_index": 342,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "80",
+      "episode_index": 349,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "117",
+      "episode_index": 350,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 351,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "svBbv1Pavdk"
+    },
+    {
+      "episode_id": "79",
+      "episode_index": 353,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "19",
+      "episode_index": 356,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 357,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "72",
+      "episode_index": 360,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "73",
+      "episode_index": 361,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "17",
+      "episode_index": 362,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "94",
+      "episode_index": 365,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "41",
+      "episode_index": 370,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 372,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "26",
+      "episode_index": 373,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "13",
+      "episode_index": 378,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 379,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "44",
+      "episode_index": 382,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "22",
+      "episode_index": 383,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "44",
+      "episode_index": 384,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "64",
+      "episode_index": 385,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "90",
+      "episode_index": 386,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "66",
+      "episode_index": 391,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "97",
+      "episode_index": 393,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 395,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "25",
+      "episode_index": 396,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "41",
+      "episode_index": 398,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "58",
+      "episode_index": 399,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "53",
+      "episode_index": 402,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "45",
+      "episode_index": 407,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "65",
+      "episode_index": 408,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "71",
+      "episode_index": 409,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "54",
+      "episode_index": 411,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "36",
+      "episode_index": 412,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 414,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "1",
+      "episode_index": 415,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "95",
+      "episode_index": 422,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "91",
+      "episode_index": 424,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "73",
+      "episode_index": 426,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "34",
+      "episode_index": 427,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "43",
+      "episode_index": 428,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "92",
+      "episode_index": 432,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 433,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "26",
+      "episode_index": 440,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "55",
+      "episode_index": 441,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "27",
+      "episode_index": 445,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "28",
+      "episode_index": 447,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "79",
+      "episode_index": 451,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "25",
+      "episode_index": 452,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "84",
+      "episode_index": 455,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "30",
+      "episode_index": 458,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "51",
+      "episode_index": 459,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "12",
+      "episode_index": 461,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "92",
+      "episode_index": 467,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "73",
+      "episode_index": 469,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "24",
+      "episode_index": 472,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "0",
+      "episode_index": 475,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "83",
+      "episode_index": 479,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 480,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "13",
+      "episode_index": 485,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "37",
+      "episode_index": 487,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 488,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "81",
+      "episode_index": 491,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 492,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "96",
+      "episode_index": 494,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "38",
+      "episode_index": 495,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "13",
+      "episode_index": 496,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "59",
+      "episode_index": 498,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 500,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "66",
+      "episode_index": 505,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "6",
+      "episode_index": 507,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "42",
+      "episode_index": 510,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "65",
+      "episode_index": 514,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "30",
+      "episode_index": 515,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "svBbv1Pavdk"
+    },
+    {
+      "episode_id": "64",
+      "episode_index": 516,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "66",
+      "episode_index": 524,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "78",
+      "episode_index": 527,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "59",
+      "episode_index": 532,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "27",
+      "episode_index": 533,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "38",
+      "episode_index": 534,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "97",
+      "episode_index": 535,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "60",
+      "episode_index": 537,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "80",
+      "episode_index": 538,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 539,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "47",
+      "episode_index": 546,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "68",
+      "episode_index": 552,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "40",
+      "episode_index": 555,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "71",
+      "episode_index": 556,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "13",
+      "episode_index": 558,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "4ok3usBNeis"
+    },
+    {
+      "episode_id": "67",
+      "episode_index": 560,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "46",
+      "episode_index": 561,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "68",
+      "episode_index": 566,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "svBbv1Pavdk"
+    },
+    {
+      "episode_id": "77",
+      "episode_index": 568,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "60",
+      "episode_index": 571,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "45",
+      "episode_index": 572,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "42",
+      "episode_index": 574,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "43",
+      "episode_index": 578,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "74",
+      "episode_index": 579,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "73",
+      "episode_index": 581,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "30",
+      "episode_index": 582,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "5",
+      "episode_index": 587,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "63",
+      "episode_index": 588,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "40",
+      "episode_index": 591,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "60",
+      "episode_index": 592,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "74",
+      "episode_index": 594,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "91",
+      "episode_index": 603,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "16",
+      "episode_index": 604,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "91",
+      "episode_index": 605,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "47",
+      "episode_index": 611,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "22",
+      "episode_index": 615,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "68",
+      "episode_index": 616,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "34",
+      "episode_index": 617,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "84",
+      "episode_index": 619,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "73",
+      "episode_index": 620,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 623,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "49",
+      "episode_index": 624,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "82",
+      "episode_index": 627,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "94",
+      "episode_index": 628,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "48",
+      "episode_index": 632,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "svBbv1Pavdk"
+    },
+    {
+      "episode_id": "94",
+      "episode_index": 634,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "34",
+      "episode_index": 637,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "70",
+      "episode_index": 641,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "23",
+      "episode_index": 642,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "18",
+      "episode_index": 646,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "22",
+      "episode_index": 649,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 652,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "96",
+      "episode_index": 653,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "78",
+      "episode_index": 655,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "72",
+      "episode_index": 660,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "27",
+      "episode_index": 662,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "43",
+      "episode_index": 664,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 665,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "93",
+      "episode_index": 676,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "21",
+      "episode_index": 677,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 679,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "64",
+      "episode_index": 681,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "53",
+      "episode_index": 687,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "96",
+      "episode_index": 691,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "83",
+      "episode_index": 692,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 697,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "81",
+      "episode_index": 701,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "78",
+      "episode_index": 705,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "26",
+      "episode_index": 707,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "40",
+      "episode_index": 708,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "92",
+      "episode_index": 710,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "83",
+      "episode_index": 719,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "98",
+      "episode_index": 721,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "72",
+      "episode_index": 722,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "29",
+      "episode_index": 724,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "89",
+      "episode_index": 726,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 730,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "59",
+      "episode_index": 731,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "63",
+      "episode_index": 749,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "60",
+      "episode_index": 750,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "17",
+      "episode_index": 754,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "38",
+      "episode_index": 755,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "108",
+      "episode_index": 758,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "56",
+      "episode_index": 759,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "ziup5kvtCCR"
+    },
+    {
+      "episode_id": "92",
+      "episode_index": 761,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "svBbv1Pavdk"
+    },
+    {
+      "episode_id": "39",
+      "episode_index": 765,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "10",
+      "episode_index": 767,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 770,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "45",
+      "episode_index": 774,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "94",
+      "episode_index": 775,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "84",
+      "episode_index": 777,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "56",
+      "episode_index": 779,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "30",
+      "episode_index": 787,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "64",
+      "episode_index": 788,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "QaLdnwvtxbs"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 789,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "9",
+      "episode_index": 792,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 800,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "53",
+      "episode_index": 805,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "88",
+      "episode_index": 806,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "82",
+      "episode_index": 809,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "62",
+      "episode_index": 811,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 812,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "68",
+      "episode_index": 815,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 818,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 820,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "95",
+      "episode_index": 823,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "8",
+      "episode_index": 831,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "QaLdnwvtxbs"
+    },
+    {
+      "episode_id": "80",
+      "episode_index": 837,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "67",
+      "episode_index": 840,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "87",
+      "episode_index": 844,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "77",
+      "episode_index": 848,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "29",
+      "episode_index": 850,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "49",
+      "episode_index": 851,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "3",
+      "episode_index": 852,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "29",
+      "episode_index": 856,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "48",
+      "episode_index": 859,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "65",
+      "episode_index": 863,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "68",
+      "episode_index": 867,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "12",
+      "episode_index": 870,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "75",
+      "episode_index": 873,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "23",
+      "episode_index": 876,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "43",
+      "episode_index": 877,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "QaLdnwvtxbs"
+    },
+    {
+      "episode_id": "68",
+      "episode_index": 879,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "41",
+      "episode_index": 880,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "20",
+      "episode_index": 881,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "54",
+      "episode_index": 884,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "wcojb4TFT35"
+    },
+    {
+      "episode_id": "14",
+      "episode_index": 885,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "12",
+      "episode_index": 886,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "63",
+      "episode_index": 889,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "98",
+      "episode_index": 894,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Nfvxx8J5NCo"
+    },
+    {
+      "episode_id": "86",
+      "episode_index": 901,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "47",
+      "episode_index": 902,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "18",
+      "episode_index": 905,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "53",
+      "episode_index": 909,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "52",
+      "episode_index": 912,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "48",
+      "episode_index": 917,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "12",
+      "episode_index": 918,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "bxsVRursffK"
+    },
+    {
+      "episode_id": "92",
+      "episode_index": 919,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "69",
+      "episode_index": 928,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "TEEsavR23oF"
+    },
+    {
+      "episode_id": "82",
+      "episode_index": 929,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "26",
+      "episode_index": 933,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "74",
+      "episode_index": 936,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "74",
+      "episode_index": 941,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "Dd4bFSTQ8gi"
+    },
+    {
+      "episode_id": "4",
+      "episode_index": 942,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "55",
+      "episode_index": 950,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "31",
+      "episode_index": 951,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "53",
+      "episode_index": 954,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "DYehNKdT76V"
+    },
+    {
+      "episode_id": "37",
+      "episode_index": 958,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "5cdEh9F2hJL"
+    },
+    {
+      "episode_id": "95",
+      "episode_index": 960,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "p53SfW6mjZe"
+    },
+    {
+      "episode_id": "2",
+      "episode_index": 962,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "19",
+      "episode_index": 963,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "79",
+      "episode_index": 964,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "q3zU7Yy5E5s"
+    },
+    {
+      "episode_id": "91",
+      "episode_index": 967,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_feasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    },
+    {
+      "episode_id": "74",
+      "episode_index": 970,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "cvZr5TUy5C5"
+    },
+    {
+      "episode_id": "74",
+      "episode_index": 974,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "qyAac8rV8Zk"
+    },
+    {
+      "episode_id": "65",
+      "episode_index": 975,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "QaLdnwvtxbs"
+    },
+    {
+      "episode_id": "92",
+      "episode_index": 978,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "41",
+      "episode_index": 981,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mL8ThkuaVTM"
+    },
+    {
+      "episode_id": "67",
+      "episode_index": 983,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "18",
+      "episode_index": 985,
+      "failure_cause": "never_saw_target_traveled_stairs_feasible",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "7",
+      "episode_index": 986,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "mv2HUxq3B53"
+    },
+    {
+      "episode_id": "15",
+      "episode_index": 987,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "83",
+      "episode_index": 988,
+      "failure_cause": "false_positive",
+      "goal": "",
+      "scene": "6s7QHgap2fW"
+    },
+    {
+      "episode_id": "26",
+      "episode_index": 990,
+      "failure_cause": "never_saw_target_traveled_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "XB4GS9ShBRE"
+    },
+    {
+      "episode_id": "66",
+      "episode_index": 994,
+      "failure_cause": "never_saw_target_did_not_travel_stairs_likely_infeasible",
+      "goal": "",
+      "scene": "zt1RVoi7PcG"
+    }
+  ],
+  "goal_failure_breakdown": {
+    "unknown": {
+      "false_positive": 161,
+      "never_saw_target_did_not_travel_stairs_feasible": 50,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 100,
+      "never_saw_target_traveled_stairs_feasible": 9,
+      "never_saw_target_traveled_stairs_likely_infeasible": 39
+    }
+  },
+  "scene_failure_breakdown": {
+    "4ok3usBNeis": {
+      "never_saw_target_did_not_travel_stairs_feasible": 1
+    },
+    "5cdEh9F2hJL": {
+      "false_positive": 15
+    },
+    "6s7QHgap2fW": {
+      "false_positive": 20,
+      "never_saw_target_did_not_travel_stairs_feasible": 1,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 3,
+      "never_saw_target_traveled_stairs_feasible": 4
+    },
+    "DYehNKdT76V": {
+      "false_positive": 13,
+      "never_saw_target_did_not_travel_stairs_feasible": 8,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 1
+    },
+    "Dd4bFSTQ8gi": {
+      "false_positive": 13,
+      "never_saw_target_did_not_travel_stairs_feasible": 3
+    },
+    "Nfvxx8J5NCo": {
+      "false_positive": 4,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 1
+    },
+    "QaLdnwvtxbs": {
+      "false_positive": 2,
+      "never_saw_target_did_not_travel_stairs_feasible": 3
+    },
+    "TEEsavR23oF": {
+      "false_positive": 12,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 4
+    },
+    "XB4GS9ShBRE": {
+      "false_positive": 2,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 18,
+      "never_saw_target_traveled_stairs_likely_infeasible": 5
+    },
+    "bxsVRursffK": {
+      "false_positive": 1,
+      "never_saw_target_did_not_travel_stairs_feasible": 9,
+      "never_saw_target_traveled_stairs_feasible": 2,
+      "never_saw_target_traveled_stairs_likely_infeasible": 3
+    },
+    "cvZr5TUy5C5": {
+      "false_positive": 5,
+      "never_saw_target_did_not_travel_stairs_feasible": 4,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 11,
+      "never_saw_target_traveled_stairs_likely_infeasible": 6
+    },
+    "mL8ThkuaVTM": {
+      "false_positive": 4,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 10,
+      "never_saw_target_traveled_stairs_likely_infeasible": 11
+    },
+    "mv2HUxq3B53": {
+      "false_positive": 15,
+      "never_saw_target_did_not_travel_stairs_feasible": 2
+    },
+    "p53SfW6mjZe": {
+      "false_positive": 2,
+      "never_saw_target_did_not_travel_stairs_feasible": 1,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 6,
+      "never_saw_target_traveled_stairs_feasible": 2,
+      "never_saw_target_traveled_stairs_likely_infeasible": 5
+    },
+    "q3zU7Yy5E5s": {
+      "false_positive": 4,
+      "never_saw_target_did_not_travel_stairs_feasible": 3,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 11,
+      "never_saw_target_traveled_stairs_likely_infeasible": 6
+    },
+    "qyAac8rV8Zk": {
+      "false_positive": 13,
+      "never_saw_target_did_not_travel_stairs_feasible": 3,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 18,
+      "never_saw_target_traveled_stairs_feasible": 1,
+      "never_saw_target_traveled_stairs_likely_infeasible": 1
+    },
+    "svBbv1Pavdk": {
+      "false_positive": 5,
+      "never_saw_target_did_not_travel_stairs_feasible": 1
+    },
+    "wcojb4TFT35": {
+      "false_positive": 7,
+      "never_saw_target_did_not_travel_stairs_feasible": 5,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 5,
+      "never_saw_target_traveled_stairs_likely_infeasible": 1
+    },
+    "ziup5kvtCCR": {
+      "false_positive": 5,
+      "never_saw_target_did_not_travel_stairs_feasible": 1,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 4
+    },
+    "zt1RVoi7PcG": {
+      "false_positive": 19,
+      "never_saw_target_did_not_travel_stairs_feasible": 5,
+      "never_saw_target_did_not_travel_stairs_likely_infeasible": 8,
+      "never_saw_target_traveled_stairs_likely_infeasible": 1
+    }
+  }
+}
